@@ -1,0 +1,14 @@
+<view>
+  <view class="list-item">
+    <scroll-list items="{{hotList}}" title="影院热映"></scroll-list>
+  </view>
+  <view>
+    <scroll-list items="{{freeList}}" title="免费在线观影"></scroll-list>
+  </view>
+  <view>
+    <scroll-list items="{{soonList}}" title="新片速递"></scroll-list>
+  </view>
+  <view>
+    <scroll-list items="{{goodList}}" type="onlyString" title="发现好电影"></scroll-list>
+  </view>
+</view>

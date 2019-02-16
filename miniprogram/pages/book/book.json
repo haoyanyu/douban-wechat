@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图书",
+  "usingComponents":{
+    "scroll-list": "./../../components/movieScroll/movieScroll"
+  }
+}

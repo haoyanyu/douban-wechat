@@ -1,0 +1,72 @@
+.board-list {
+  display: block;
+  box-sizing: border-box;
+  padding: 0 0 40rpx 100rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.board-author {
+  margin-left: -100rpx;
+  padding: 16rpx 0 16rpx 20rpx;
+}
+.board-author .author-image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.board-author .author,
+.board-author .name {
+  display: inline-block;
+}
+.board-author .name {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-right:4rpx;
+}
+.board-author .board-text {
+  color: #999;
+  font-size: 36rpx;
+}
+.content-box {
+  border: 1px solid #efefef;
+  padding: 20rpx 20rpx 20rpx 30rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.content-box .title {
+  line-height: 2;
+}
+.content-box .content {
+  color: #999;
+  font-size: 32rpx;
+}
+.command {
+  position: relative;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 24rpx;
+}
+.command .icons {
+  float: left;
+  color: #999;
+  font-size: 34rpx;
+  text-indent: 45rpx;
+  margin-right: 30rpx;
+}
+.command .zan {
+  background: url(https://img3.doubanio.com/f/talion/7a0756b3b6e67b59ea88653bc0cfa14f61ff219d/pics/card/ic_like_gray.svg) no-repeat;
+  background-size:  42rpx 42rpx;
+}
+.command .chat {
+  background: url(https://img3.doubanio.com/f/talion/ac8a7e0d5f471480549c7abf45fc0fa4c3b4184f/pics/card/ic_comment.svg) no-repeat;
+  background-size:  42rpx 42rpx;
+}
+.command .reload {
+  background: url(https://img3.doubanio.com/f/talion/8604ef3950b947d55406e2a6f5cf6ca7f0b934e3/pics/card/ic_retweet_gray.svg) no-repeat;
+  background-size:  42rpx 42rpx;
+}
+.command .more {
+  float: right;
+  
+  font-size: 48rpx;
+}

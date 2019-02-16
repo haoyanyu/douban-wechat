@@ -1,0 +1,11 @@
+<template name="dou-footer">
+  <view class="footer">
+    <view class="footer-image">
+      <image class="images" src="./../../images/douban-app-logo.png"></image>
+    </view>
+    <view class="footer-description">
+      <view class="title">豆瓣</view>
+      <view class="content">我们的精神角落</view>
+    </view>
+  </view>
+</template>

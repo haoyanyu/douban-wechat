@@ -1,0 +1,65 @@
+.detail-page {}
+.detail-page .main {
+  display: block;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin: 30rpx 0;
+}
+.main .title {
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-bottom: 40rpx;
+}
+.title .badge {
+  background: #ff8263;
+  color: #fff;
+  font-size: 30rpx;
+  display: inline-block;
+  padding: 6rpx 12rpx;
+  border-radius: 6rpx;
+  margin-left: 10rpx;
+}
+.image-box {
+  width: 60%;
+  margin: 0 auto 30rpx auto;
+}
+.image-box .the-image {
+  width: 100%;
+  display: block;
+}
+
+.detail {
+  margin: 10rpx 0;
+}
+.detail .span-title {
+  color: #666;
+}
+.span-title .ul-view {
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 32rpx;
+}
+.address {
+  color: #000;
+  font-size: 32rpx;
+  margin-left: 110rpx;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: -40rpx;
+}
+.span-title .ul-view .li-text {
+  display: block;
+}
+.address .li-text {
+  display: inline;
+}
+.activite-title {
+  font-size: 46rpx;
+  margin:20rpx 0;
+  color: #072;
+}
+.activite-title .ul-view {
+  color: #333;
+  font-size: 34rpx;
+}

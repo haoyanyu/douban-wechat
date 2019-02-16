@@ -1,0 +1,15 @@
+<view class="list-container">
+  <block wx:if="{{mold === 'thumbnail'}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+  <view class="thumbnail" bindtap='tapItem' data-id="{{item.id}}">
+    <view class="list-main">
+        <image class="list-img" src="{{item.image_hlarge}}"></image>
+        <view class="title">{{item.title}}</view>
+        <view class="content">{{item.content_calc}}</view>
+      </view>
+      <view class="author">
+        <text class="name">{{item.category_name}}</text>
+        <text class="label" wx:if="{{item.subcategory_name}}">本活动来自项目{{item.subcategory_name}}</text>
+      </view>
+    </view>
+  </block>
+</view>

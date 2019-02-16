@@ -1,0 +1,11 @@
+<import src="./../../templates/dou-header/dou-header.wxml" />
+
+<view>
+  <template is="top-header" data="{{...title}}"/>
+  <view>
+    <category-list />
+  </view>
+  <view>
+    <active-list items="{{items}}" mold="thumbnail"></active-list>
+  </view>
+</view>

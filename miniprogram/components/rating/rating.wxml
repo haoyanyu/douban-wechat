@@ -1,0 +1,19 @@
+<view style="display:block; text-align: center">
+  <view wx:if="{{rating}}">
+    <block wx:if="{{full === 0 || full.length === 0}}">
+      <view style="font-size: 32rpx;color: #999; display:inline">暂无评分</view>
+    </block>
+    <block wx:else>
+      <block wx:for="{{full}}">
+        <view class="star-full"></view>
+      </block>
+      <block wx:for="{{half}}">
+        <view class="star-half"></view>
+      </block>
+      <block wx:for="{{gray}}">
+        <view class="star-gray"></view>
+      </block>
+    </block>
+    <slot></slot>
+  </view>
+</view>

@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/group/group",
+    "pages/index/index",
+    "pages/board/board",
+    "pages/movie/movie",
+    "pages/book/book",
+    
+    "pages/detail/detail"
+    
+
+  ],
+  "windows":{
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "电影大全",
+    "navigationStyle":"custom",
+    "backgroundColor":"#000000",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": "50px"
+  },
+  "tabBar": {
+    "color": "#535353",
+    "selectedColor": "#000000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/note.png",
+        "selectedIconPath": "./images/note-actived.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "./images/movie.png",
+        "selectedIconPath": "./images/movie-actived.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "图书",
+        "iconPath": "./images/book.png",
+        "selectedIconPath": "./images/book-actived.png"
+      },
+      {
+        "pagePath": "pages/board/board",
+        "text": "广播",
+        "iconPath": "./images/board.png",
+        "selectedIconPath": "./images/board-actived.png"
+      },
+      {
+        "pagePath": "pages/group/group",
+        "text": "小组",
+        "iconPath": "./images/profile.png",
+        "selectedIconPath": "./images/profile-actived.png"
+      }
+      
+    ]
+  },
+  "plugins": {
+    "myPlugin": {
+      "version": "dev",
+      "provider": "wx53c462317ddf1782"
+    }
+  }
+}

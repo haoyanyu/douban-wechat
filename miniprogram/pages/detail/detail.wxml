@@ -1,0 +1,49 @@
+<import src="./../../templates/dou-header/dou-header.wxml" />
+<import src="./../../templates/dou-footer/dou-footer.wxml" />
+
+<view class="detail-page">
+  <template is="top-header" data="{{...title}}"/>
+  <view class="main">
+    <view class="title">{{eventInfo.title}}<text class="badge">{{eventInfo.loc_name}}</text></view>
+    <view class="image-box">
+      <image class="the-image" src="{{eventInfo.image_hlarge}}"></image>
+    </view>
+    <view class="detail">
+      <view class="span-title">时间：
+        <view class="ul-view">
+          <text class="li-text">{{eventInfo.begin_time}}</text>
+          <text class="li-text">{{eventInfo.end_time}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="detail">
+      <view class="span-title">地点：
+        <view class="address">
+          <text class="li-text">{{eventInfo.address}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="detail">
+      <view class="span-title">费用：
+        <view class="ul-view">
+          <text class="li-text">{{eventInfo.fee_str}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="detail">
+      <view class="span-title">类型：
+        <view class="ul-view">
+          <text class="li-text">{{eventInfo.category_name}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="detail">
+      <view class="activite-title">活动详情
+        <view class="ul-view">
+          <text class="li-text">{{eventInfo.content}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <template is="dou-footer"/>
+</view>

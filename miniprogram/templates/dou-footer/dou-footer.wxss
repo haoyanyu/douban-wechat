@@ -1,0 +1,27 @@
+.footer {
+  display: block;
+  height: 96rpx;
+  padding: 20rpx 0;
+  text-align: center;
+}
+.footer .images {
+  width: 96rpx;
+  height: 96rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .footer-image {
+  display: inline-block;
+}
+.footer .footer-description {
+  display: inline-block;
+  text-align: left;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+.footer .footer-description .title {
+  font-weight: 600;
+}
+.footer .footer-description .content {
+  font-size: 32rpx;
+}

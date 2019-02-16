@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents":{
+    "active-list":"./../../components/List/list",
+    "category-list":"./../../components/itemCategory/itemCategory"
+  }
+}

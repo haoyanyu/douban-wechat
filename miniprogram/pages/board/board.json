@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "board-list":"./../../components/boardList/boardList"
+  }
+}

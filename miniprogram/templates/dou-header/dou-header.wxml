@@ -1,0 +1,9 @@
+<template name="top-header">
+<view class="header-container">
+  <text class="header-title">{{title}}</text>
+  <view class="header-button-box">
+    <button class="header-btns" type="primary" style="display:inline-block;margin-right: 3px;">极速下载</button>
+    <button class="header-btns" plain style="display:inline-block">打开</button>
+  </view> 
+</view>
+</template>

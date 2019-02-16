@@ -1,0 +1,15 @@
+.category-box {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100rpx;
+  padding: 20rpx;
+}
+.item {
+  display: inline-block;
+  line-height: 2.4;
+  background: #ddd;
+  width: calc(50% - 20rpx);
+  text-align: center;
+  margin: 10rpx;
+}

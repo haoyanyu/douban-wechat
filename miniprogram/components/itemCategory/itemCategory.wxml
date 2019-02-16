@@ -1,0 +1,22 @@
+<view class="category-box">
+  <view class="item">
+    <navigator open-type="switchTab" url="./../../pages/movie/movie">
+      影院热映
+    </navigator>
+  </view>
+  <view class="item">
+    <navigator open-type="navigateTo">
+      欧美新碟榜
+    </navigator>
+  </view>
+  <view class="item">
+    <navigator open-type="navigateTo">
+      注册账号
+    </navigator>
+  </view>
+  <view class="item">
+    <navigator open-type="navigateTo">
+      登录豆瓣
+    </navigator>
+  </view>
+</view>

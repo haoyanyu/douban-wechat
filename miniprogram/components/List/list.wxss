@@ -1,0 +1,42 @@
+.list-container {
+  display: block;
+}
+.thumbnail{
+  position: relative;
+  border-bottom: 1rpx solid #eee;
+  padding: 40rpx 20rpx;
+}
+.list-main {
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.list-img {
+  float: right;
+  width: 25.6%;
+  height: 170rpx;
+  margin-left: 50rpx
+}
+.title {
+  margin-bottom: 12rpx;
+  line-height: 1.41;
+  text-align: justify;
+  font-size: 34rpx;
+  font-weight: 500;
+  color: #494949;
+}
+.content {
+  line-height: 1.5;
+  text-align: justify;
+  color: #aaa;
+  font-size: 26rpx;
+  overflow: hidden;
+}
+.author {
+  font-size: 28rpx;
+  position: relative;
+  color: #aaa;
+}
+.label {
+  position: absolute;
+  right: 0;
+}

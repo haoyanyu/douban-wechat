@@ -1,0 +1,13 @@
+<import src="./../../templates/dou-header/dou-header.wxml" />
+
+<view>
+  <template is="top-header" data="{{...title}}"/>
+  <block>
+    <view wx:for="{{items}}">
+      <board-list/>
+    </view>
+    <view style="line-height: 3; font-size: 46rpx; color: #00B26A; text-align: center">
+      显示更多广播
+    </view>
+  </block>
+</view>

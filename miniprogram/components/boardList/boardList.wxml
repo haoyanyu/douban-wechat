@@ -1,0 +1,19 @@
+<view class="board-list">
+  <view class="board-author">
+    <image class="author-image" src="./../../images/douban-app-logo.png"></image>
+    <view class="author">
+      <view class="name">晓红</view><text class="board-text">写了日记</text>
+      <view><text class="board-text">2017-07-24 12:56:45</text></view>
+    </view>
+  </view>
+  <view class="content-box">
+    <view class="title">豆瓣App 4.12.0 主要更新</view>
+    <view class="content">- 可以写读书笔记了，同时支持编辑。随时随地，摘录怦然心动的段落，写下阅读时的随感。来写笔记吧，你...</view>
+  </view>
+  <view class="command">
+    <view class="icons zan">3</view>
+    <view class="icons chat">2</view>
+    <view class="icons reload">0</view>
+    <view class="icons more">···</view>
+  </view>
+</view>
